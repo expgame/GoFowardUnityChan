@@ -23,10 +23,10 @@ GameObject:
   - component: {fileID: 50210741667747922}
   - component: {fileID: 61950177934414468}
   - component: {fileID: 114303572852825184}
-  - component: {fileID: 82086471640317688}
+  - component: {fileID: 82967212211296830}
   m_Layer: 0
   m_Name: CubePrefab
-  m_TagString: Untagged
+  m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,7 +89,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
---- !u!82 &82086471640317688
+--- !u!82 &82967212211296830
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -99,10 +99,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9fccf7c4c3083459ca41545e47ab9e91, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
